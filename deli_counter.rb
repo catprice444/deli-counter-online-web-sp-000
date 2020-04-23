@@ -13,4 +13,3 @@ else
   puts "The line is currently empty."
 end
 end
-
