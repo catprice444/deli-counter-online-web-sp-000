@@ -17,5 +17,5 @@ end
 #=> Welcome, Ada. You are number 1 in line.
 def take_a_number(katz_deli, new_person)
   line.push(new_person)
-  puts "Welcome #{name}. You are number #{line.length} in line."
+  puts "Welcome #{new_person}. You are number #{line.length} in line."
 end
