@@ -22,7 +22,6 @@ end
 #=> "Currently serving Grace."
 def now_serving(line)
   if line.lenth >=1
-
   puts "Currently serving #{line[0]}."
   line.shift
 else
