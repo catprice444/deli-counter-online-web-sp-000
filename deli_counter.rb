@@ -21,6 +21,10 @@ end
 
 #=> "Currently serving Grace."
 def now_serving(line, next_person)
-  line.shift(next_person)
+  if line.lenth >=1
+    line.shift(next_person)
   puts "Currently serving #{next_person}."
+else 
+  puts "There is nobody waiting to be served!"
+end
 end
