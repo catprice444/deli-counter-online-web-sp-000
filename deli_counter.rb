@@ -14,4 +14,8 @@ else
 end
 end
 
+#=> Welcome, Ada. You are number 1 in line.
 def take_a_number(katz_deli, name)
+  line.push(new_person)
+  puts "Welcome #{name}. You are number #{line.length} in line."
+end
