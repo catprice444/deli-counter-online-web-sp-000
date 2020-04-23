@@ -13,3 +13,11 @@ else
   puts "The line is currently empty."
 end
 end
+
+def line(array) 
+  current_line = "The simple line is currently:"
+  array.each.with_index(1) do |value, index|  
+    current_line << " #{index}. #{value},"    
+  end
+  puts current_line
+end 
